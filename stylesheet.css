@@ -116,7 +116,7 @@ header {
 }
 .top-wrapper .container .Scroll {
   position: absolute;
-  bottom: 1%;
+  bottom: 7px;
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
