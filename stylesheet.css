@@ -523,7 +523,7 @@ h4 {
 /* スマホ向けレイアウト */
 @media all and (max-width: 670px) {
   body {
-    background-color: white;
+    background-image: none;
   }
 
   .container {
@@ -596,13 +596,6 @@ h4 {
     margin: 15px 20px;
     position: relative;
     top: -15px;
-  }
-}
-/* 横向き */
-@media (orientation: landscape) {
-  body {
-    background-color: rgba(255, 255, 255, 0.3);
-    background-blend-mode: lighten;
   }
 }
 /*# sourceMappingURL=stylesheet.css.map */
