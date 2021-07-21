@@ -389,9 +389,8 @@ h4 {
 /* タブレット向けレイアウト */
 @media all and (max-width: 1200px) {
   body {
-    background-size: 15%;
-    background-color: rgba(255, 255, 255, 0.5);
     background-size: 20%;
+    background-color: rgba(255, 255, 255, 0.5);
   }
 
   .container {
@@ -524,7 +523,7 @@ h4 {
 /* スマホ向けレイアウト */
 @media all and (max-width: 670px) {
   body {
-    background-image: none;
+    background-color: white;
   }
 
   .container {
