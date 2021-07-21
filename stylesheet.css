@@ -15,7 +15,7 @@ h2 {
   color: #FF2828;
   display: inline-block;
   border-bottom: solid 13px #FF2828;
-  line-height: 70px;
+  line-height: 60px;
 }
 
 p {
@@ -156,8 +156,8 @@ header {
 }
 .aisatu-text p {
   position: relative;
-  top: -4vh;
-  width: 50vh;
+  top: -40px;
+  width: 50vw;
   max-width: 466px;
 }
 .aisatu-text .more {
@@ -384,7 +384,7 @@ h4 {
     margin: 10% 0 0 35%;
   }
   .aisatu-text p {
-    width: 30vh;
+    width: 25vw;
   }
 
   footer .container .footer-right {
