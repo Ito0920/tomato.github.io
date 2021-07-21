@@ -199,6 +199,8 @@ header {
 .tomatosyoukai .container .tomato-list .tomato p {
   text-align: left;
   padding: 0 25px 25px 25px;
+  position: relative;
+  left: 5px;
 }
 
 .osirase {
@@ -244,6 +246,8 @@ textarea {
   border-radius: 10px;
   padding: 7px;
   font-size: 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .sousin {
@@ -593,6 +597,13 @@ h4 {
     margin: 15px 20px;
     position: relative;
     top: -15px;
+  }
+}
+/* 横向き */
+@media (orientation: landscape) {
+  body {
+    background-color: rgba(255, 255, 255, 0.3);
+    background-blend-mode: lighten;
   }
 }
 /*# sourceMappingURL=stylesheet.css.map */
