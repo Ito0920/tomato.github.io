@@ -258,6 +258,7 @@ textarea {
   margin-top: 20px;
   line-height: 50%;
   border: none;
+  -webkit-appearance: none;
 }
 .sousin:hover {
   background: #ff8e8e;
