@@ -314,7 +314,7 @@ h4 {
   text-decoration: none;
   margin-right: 50px;
   position: relative;
-  top: -15px;
+  top: -10px;
 }
 .footer-menu .footer-Menu-list a:hover {
   opacity: 80%;
@@ -382,9 +382,6 @@ h4 {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .footer-menu h4 {
-    width: 56px;
-  }
   .footer-menu .footer-Menu-list a {
     margin-right: 35px;
   }
@@ -401,7 +398,7 @@ h4 {
   }
 }
 /* タブレット向けレイアウト */
-@media all and (max-width: 1100px) {
+@media all and (max-width: 1200px) {
   body {
     background-size: 15%;
     background-color: rgba(255, 255, 255, 0.5);
@@ -519,7 +516,7 @@ h4 {
     margin-right: 0;
     margin: 0 20px;
     position: relative;
-    top: -15px;
+    top: -10px;
   }
 
   .footer-SNS {
@@ -609,7 +606,7 @@ h4 {
     margin-right: 0;
     margin: 15px 20px;
     position: relative;
-    top: -15px;
+    top: -10px;
   }
 }
 /*# sourceMappingURL=stylesheet.css.map */
