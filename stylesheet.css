@@ -29,6 +29,11 @@ a {
   font-weight: 600;
   color: #FF2828;
   text-decoration: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+a:hover {
+  opacity: 80%;
 }
 
 .more {
@@ -41,6 +46,8 @@ a {
   text-align: center;
   line-height: 60px;
   margin-top: 50px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 .more a {
   display: inline;
@@ -82,9 +89,6 @@ header {
   text-decoration: none;
   line-height: 80px;
   margin-left: 50px;
-}
-.header-right a:hover {
-  opacity: 80%;
 }
 
 .menu-icon {
@@ -261,6 +265,8 @@ textarea {
   line-height: 50%;
   border-radius: 10px;
   border: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 .sousin:hover {
   background: #ff8e8e;
@@ -312,9 +318,6 @@ h4 {
   position: relative;
   top: -10px;
 }
-.footer-menu .footer-Menu-list a:hover {
-  opacity: 80%;
-}
 
 .footer-SNS .SNS-icon {
   position: relative;
@@ -323,6 +326,8 @@ h4 {
   height: 40px;
   margin: 0 20px 0 0;
   cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 .footer-SNS .SNS-icon:hover {
   opacity: 80%;
