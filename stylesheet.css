@@ -445,7 +445,8 @@ h4 {
   }
   .aisatu-text p {
     position: relative;
-    top: -4vh;
+    left: 5px;
+    top: -30px;
     width: 80%;
     text-align: left;
     display: block;
