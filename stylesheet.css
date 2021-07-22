@@ -54,6 +54,9 @@ a:hover {
   color: white;
   font-size: 16px;
 }
+.more a:hover {
+  opacity: 100%;
+}
 .more:hover {
   background: #ff8e8e;
 }
