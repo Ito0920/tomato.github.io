@@ -410,6 +410,11 @@ h4 {
 
   .menu-icon {
     display: inline-block;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+  }
+  .menu-icon:hover {
+    opacity: 80%;
   }
 
   .top-wrapper {
