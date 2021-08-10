@@ -68,10 +68,15 @@ a:hover {
           transform: translateY(100px);
 }
 
+.aisatu-img-2 {
+  -webkit-transform: none;
+          transform: none;
+}
+
 .animationTarget.show {
   opacity: 1;
-  -webkit-transition: 2s;
-  transition: 2s;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
   -webkit-transform: none;
           transform: none;
 }
@@ -104,7 +109,6 @@ header {
 }
 .header-right a {
   color: white;
-  text-decoration: none;
   line-height: 80px;
   margin-left: 50px;
 }
@@ -130,6 +134,7 @@ header {
      -moz-appearance: none;
           appearance: none;
   cursor: pointer;
+  z-index: 2;
 }
 .menu-trigger:hover {
   opacity: 80%;
@@ -151,16 +156,86 @@ header {
 .menu-trigger span:nth-of-type(3) {
   bottom: 0;
 }
-.menu-trigger:focus span:nth-of-type(1) {
+
+.menu-trigger.active span:nth-of-type(1) {
   -webkit-transform: translateY(17px) rotate(-315deg);
           transform: translateY(17px) rotate(-315deg);
 }
-.menu-trigger:focus span:nth-of-type(2) {
+.menu-trigger.active span:nth-of-type(2) {
   opacity: 0;
 }
-.menu-trigger:focus span:nth-of-type(3) {
+.menu-trigger.active span:nth-of-type(3) {
   -webkit-transform: translateY(-17px) rotate(315deg);
           transform: translateY(-17px) rotate(315deg);
+}
+
+nav {
+  visibility: hidden;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  position: fixed;
+  top: 0;
+  right: 0;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  max-height: 100vh;
+  background-color: #FF2828;
+  z-index: 1;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  overflow: auto;
+}
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  left: 0;
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  top: 50%;
+}
+nav ul li {
+  list-style: none;
+  margin: 15px 0;
+  display: inline-block;
+  -webkit-transform: translateY(-15px);
+          transform: translateY(-15px);
+}
+nav ul li a {
+  font-size: 25px;
+  color: white;
+}
+nav ul div img {
+  height: 40px;
+  width: 40px;
+  margin: 0px 25px;
+  text-align: center;
+  cursor: pointer;
+}
+nav ul div h3 {
+  color: white;
+  font-size: 35px;
+  border-bottom: 5px solid white;
+  display: inline-block;
+  line-height: 45px;
+}
+
+nav.active {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: none;
+          transform: none;
 }
 
 .top-wrapper {
