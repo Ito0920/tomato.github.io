@@ -136,9 +136,6 @@ header {
   cursor: pointer;
   z-index: 2;
 }
-.menu-trigger:hover {
-  opacity: 80%;
-}
 .menu-trigger span {
   position: absolute;
   left: 0;
