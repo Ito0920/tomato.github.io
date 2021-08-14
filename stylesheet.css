@@ -12,10 +12,6 @@ body {
   background-repeat: repeat-y;
 }
 
-body.active {
-  overflow: hidden;
-}
-
 h2 {
   font-size: 50px;
   color: #FF2828;
