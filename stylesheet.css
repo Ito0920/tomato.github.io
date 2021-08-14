@@ -503,6 +503,10 @@ h4 {
 
 /* レスポンシブ */
 @media all and (max-width: 1800px) {
+  html {
+    scroll-behavior: smooth;
+  }
+
   .container {
     margin: 0 5%;
   }
@@ -542,6 +546,10 @@ h4 {
 }
 /* タブレット向けレイアウト */
 @media all and (max-width: 1200px) {
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     background-size: 20%;
     background-color: rgba(255, 255, 255, 0.3);
@@ -679,6 +687,10 @@ h4 {
 }
 /* スマホ向けレイアウト */
 @media all and (max-width: 670px) {
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     background-image: none;
   }
