@@ -7,21 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
     <script src="Scroll.js" defer></script>
+    <script src="header.js" defer></script>
     <title>itotomato</title>
 </head>
 
-<body>
-    <header>
+<body id="body">
+    <header id="header">
         <div class="container">
             <div class="header-left">
                 <img src="header-logo.png" alt="" class="header-logo">
             </div>
             <div class="header-right">
-                <a href="#">TOP</a>
-                <a href="#">あいさつ</a>
-                <a href="#">トマト紹介</a>
-                <a href="#">お知らせ</a>
-                <a href="#">お問い合わせ</a>
+                <a href="#scroll-target1">TOP</a>
+                <a href="#scroll-target2">あいさつ</a>
+                <a href="#scroll-target3">トマト紹介</a>
+                <a href="#scroll-target4">お知らせ</a>
+                <a href="#scroll-target5">お問い合わせ</a>
             </div>
             <button class="menu-trigger" id="menuButton">
                 <span></span>
@@ -32,11 +33,11 @@
         <nav id="nav">
             <ul>
                 <div><h3>MENU</h3></div>
-                <li><a href="">TOP</a></li>
-                <li><a href="">あいさつ</a></li>
-                <li><a href="">トマト紹介</a></li>
-                <li><a href="">お知らせ</a></li>
-                <li><a href="">お問い合わせ</a></li>
+                <li><a href="#scroll-target1" id="hambuger-menu">TOP</a></li>
+                <li><a href="#scroll-target2" id="hambuger-menu2">あいさつ</a></li>
+                <li><a href="#scroll-target3" id="hambuger-menu3">トマト紹介</a></li>
+                <li><a href="#scroll-target4" id="hambuger-menu4">お知らせ</a></li>
+                <li><a href="#scroll-target5" id="hambuger-menu5">お問い合わせ</a></li>
                 <div><h3>SNS</h3></div>
                 <div>
                     <img src="FACEBOOK.png" alt="">
@@ -47,14 +48,14 @@
         </nav>
     </header>
 
-    <div class="top-wrapper">
+    <div class="top-wrapper" id="scroll-target1">
         <div class="container">
             <img src="logo.png" alt="" class="logo">
             <div class="Scroll"></div>
         </div>
     </div>
 
-    <div class="aisatu">
+    <div class="aisatu" id="scroll-target2">
         <div class="container-aisatu">
             <img src="aisatu.png" class="aisatu-img-2 animationTarget">
             <div class="aisatu-text animationTarget">
@@ -70,7 +71,7 @@
         <img src="aisatu.png" class="aisatu-img animationTarget">
     </div>
 
-    <div class="tomatosyoukai">
+    <div class="tomatosyoukai" id="scroll-target3">
         <div class="container animationTarget">
             <div class="heading">
                 <h2>トマト紹介</h2>
@@ -101,7 +102,7 @@
         </div>
     </div>
 
-    <div class="osirase">
+    <div class="osirase" id="scroll-target4">
         <div class="container animationTarget">
             <div class="heading">
                 <h2>お知らせ</h2>
@@ -131,7 +132,7 @@
         </div>
     </div>
 
-    <div class="otoiawase">
+    <div class="otoiawase" id="scroll-target5">
         <div class="container animationTarget">
             <div class="heading">
                 <h2>お問い合わせ</h2>
@@ -162,11 +163,11 @@
                 <div class="footer-menu">
                     <h4>MENU</h4>
                     <div class="footer-Menu-list">
-                        <a href="#">TOP</a>
-                        <a href="#">あいさつ</a>
-                        <a href="#">トマト紹介</a>
-                        <a href="#">お知らせ</a>
-                        <a href="#">お問い合わせ</a>
+                        <a href="#scroll-target1">TOP</a>
+                        <a href="#scroll-target2">あいさつ</a>
+                        <a href="#scroll-target3">トマト紹介</a>
+                        <a href="#scroll-target4">お知らせ</a>
+                        <a href="#scroll-target5">お問い合わせ</a>
                     </div>
                 </div>
                 <div class="footer-SNS">
